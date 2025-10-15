@@ -1,0 +1,257 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Fusionpact DevOps Internship Program 2026</title>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+<style>
+/* General Styles */
+body {
+  margin: 0;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #f4f6f8;
+  color: #333;
+  scroll-behavior: smooth;
+}
+header {
+  background: linear-gradient(135deg, #0b3d91, #1e69c8);
+  color: white;
+  padding: 2em 1em;
+  text-align: center;
+}
+header h1 { margin: 0.2em 0; font-size: 2em; }
+header p { font-size: 1.2em; margin-bottom: 0.5em; }
+
+/* Navigation */
+nav {
+  display: flex;
+  justify-content: center;
+  background-color: #1e69c8;
+  flex-wrap: wrap;
+  position: sticky;
+  top: 0;
+  z-index: 100;
+}
+nav a {
+  color: white;
+  padding: 1em 1.5em;
+  text-decoration: none;
+  font-weight: 500;
+  transition: 0.3s;
+}
+nav a:hover, nav a.active { background-color: #15509b; }
+
+/* Main Grid */
+main {
+  max-width: 1200px;
+  margin: auto;
+  padding: 2em 1em;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 2em;
+}
+
+/* Card Styles */
+.module-card {
+  background: white;
+  border-radius: 12px;
+  padding: 1.5em;
+  box-shadow: 0 6px 20px rgba(0,0,0,0.15);
+  opacity: 0;
+  transform: translateY(50px);
+  transition: all 0.8s ease-out;
+}
+.module-card.visible {
+  opacity: 1;
+  transform: translateY(0);
+}
+.module-card h2 { color: #0b3d91; font-size: 1.5em; margin-bottom: 0.3em; }
+.module-card h3 { color: #0b3d91; margin-top:0; margin-bottom:0.5em; }
+.module-card p { font-weight: 500; }
+.module-card ul { padding-left: 1.2em; }
+.module-card li { margin-bottom: 0.5em; }
+.module-card a {
+  color: #ff9800;
+  text-decoration: underline;
+}
+.badge { display:inline-block; background-color: #ff9800; color:white; padding:0.2em 0.6em; border-radius:4px; font-size:0.85em; margin:0.2em 0.2em 0.2em 0; }
+
+/* Full-Time Offer Section */
+#fulltime-offer {
+  margin-top: 4em;
+  text-align: center;
+}
+#fulltime-offer h2 {
+  color: #0b3d91;
+  font-size: 2em;
+  margin-bottom: 1em;
+}
+.offer-card {
+  max-width: 700px;
+  margin: auto;
+  background: white;
+  border-radius: 12px;
+  padding: 2em;
+  box-shadow: 0 6px 20px rgba(0,0,0,0.2);
+  opacity: 0;
+  transform: scale(0.9);
+  transition: all 0.8s ease-out;
+}
+.offer-card.visible { opacity: 1; transform: scale(1); }
+.offer-card ul { text-align: left; }
+.offer-card li { margin-bottom: 0.5em; }
+.offer-card a { color: #ff9800; text-decoration: underline; }
+
+/* Footer */
+footer { text-align:center; background-color:#1e69c8; color:white; padding:1.5em 1em; margin-top:2em; }
+footer a { color:white; text-decoration:none; font-weight:bold; }
+
+/* Responsive */
+@media(max-width: 800px){ header h1{ font-size:1.6em; } header p{ font-size:1em; } }
+</style>
+</head>
+<body>
+
+<header>
+  <h1>Fusionpact DevOps Internship Program 2026</h1>
+  <p>Become Industry-Ready DevOps Professionals | Hands-on Cloud, Containers, CI/CD & Monitoring</p>
+</header>
+
+<nav>
+  <a href="#month1">Month 1</a>
+  <a href="#month2">Month 2</a>
+  <a href="#month3">Month 3</a>
+  <a href="#month4">Month 4</a>
+  <a href="#month5">Month 5</a>
+  <a href="#month6">Month 6</a>
+  <a href="#fulltime-offer">Full-Time Offer</a>
+</nav>
+
+<main>
+
+<!-- Month Cards -->
+<div class="module-card" id="month1">
+  <h2>Month 1 – Foundations</h2>
+  <p>Linux CLI, Bash Scripting, Git Version Control</p>
+  <h3>Learn & Practice:</h3>
+  <ul>
+    <li>Master Linux navigation & commands</li>
+    <li>Automate tasks using Bash scripts</li>
+    <li>Setup Git repositories & track projects</li>
+    <li><span class="badge">Linux</span><a href="https://linuxjourney.com/" target="_blank"> Linux CLI Guide</a></li>
+    <li><span class="badge">Git</span><a href="https://git-scm.com/doc" target="_blank"> Git Documentation</a></li>
+    <li>Real-world problem: Automate daily file backup</li>
+  </ul>
+</div>
+
+<div class="module-card" id="month2">
+  <h2>Month 2 – Cloud & IaC</h2>
+  <p>AWS/GCP, Terraform Modules</p>
+  <h3>Learn & Practice:</h3>
+  <ul>
+    <li>Provision virtual machines & storage using Terraform</li>
+    <li>Deploy static websites with infrastructure as code</li>
+    <li><span class="badge">AWS</span><a href="https://aws.amazon.com/training/" target="_blank"> AWS Training</a></li>
+    <li><span class="badge">Terraform</span><a href="https://developer.hashicorp.com/terraform/tutorials" target="_blank"> Terraform Tutorials</a></li>
+    <li>Real-world problem: Automate infrastructure provisioning for multiple environments</li>
+  </ul>
+</div>
+
+<div class="module-card" id="month3">
+  <h2>Month 3 – Containerization</h2>
+  <p>Docker Images & Compose</p>
+  <h3>Learn & Practice:</h3>
+  <ul>
+    <li>Containerize applications & databases</li>
+    <li>Setup multi-container environments with Docker Compose</li>
+    <li><span class="badge">Docker</span><a href="https://docs.docker.com/get-started/" target="_blank"> Docker Guide</a></li>
+    <li>Real-world problem: Containerize a web + DB stack and deploy</li>
+  </ul>
+</div>
+
+<div class="module-card" id="month4">
+  <h2>Month 4 – CI/CD</h2>
+  <p>Jenkins Pipelines, Automated Builds</p>
+  <h3>Learn & Practice:</h3>
+  <ul>
+    <li>Build Git-triggered CI/CD pipelines</li>
+    <li>Automate Docker builds & deployments</li>
+    <li><span class="badge">Jenkins</span><a href="https://www.jenkins.io/doc/" target="_blank"> Jenkins Docs</a></li>
+    <li>Real-world problem: Automate deployment of a microservice app</li>
+  </ul>
+</div>
+
+<div class="module-card" id="month5">
+  <h2>Month 5 – Monitoring & Logging</h2>
+  <p>Prometheus, Grafana, ELK Stack</p>
+  <h3>Learn & Practice:</h3>
+  <ul>
+    <li>Monitor application performance using Prometheus</li>
+    <li>Create Grafana dashboards for visualization</li>
+    <li>Centralized logging with ELK Stack</li>
+    <li>Real-world problem: Alerting for service downtime</li>
+    <li><span class="badge">Prometheus</span><a href="https://prometheus.io/docs/introduction/overview/" target="_blank"> Docs</a></li>
+  </ul>
+</div>
+
+<div class="module-card" id="month6">
+  <h2>Month 6 – Capstone</h2>
+  <p>Microservices, Docker, Kubernetes, CI/CD</p>
+  <h3>Learn & Practice:</h3>
+  <ul>
+    <li>Deploy a multi-service microservice application</li>
+    <li>Implement CI/CD pipeline with automated tests</li>
+    <li>Monitor & log services with Prometheus/Grafana & ELK</li>
+    <li><span class="badge">K8s</span><a href="https://kubernetes.io/docs/tutorials/" target="_blank"> Kubernetes Tutorials</a></li>
+    <li>Real-world problem: Full end-to-end deployment & monitoring pipeline</li>
+  </ul>
+</div>
+
+</main>
+
+<!-- Full-Time Offer Section -->
+<section id="fulltime-offer">
+  <h2>Full-Time Opportunity – Junior DevOps Engineer</h2>
+  <div class="offer-card">
+    <ul>
+      <li>Eligibility: Completion of 6-month internship with strong performance</li>
+      <li>Compensation: Competitive package & performance bonuses</li>
+      <li>Benefits:
+        <ul>
+          <li>Health & Dental Insurance</li>
+          <li>Paid Leaves & Holidays</li>
+          <li>Flexible Work Hours & Remote Options</li>
+          <li>Learning & Certification Support</li>
+          <li>Team Events & Wellness Programs</li>
+          <li>Mentorship & Career Growth Roadmap</li>
+        </ul>
+      </li>
+      <li>Work Culture: Collaborative, supportive, innovation-driven</li>
+      <li>Life at Fusionpact: Work-life balance, team outings, tech talks, hackathons</li>
+    </ul>
+  </div>
+</section>
+
+<footer>
+  &copy; 2026 Fusionpact Technology | <a href="mailto:kiran.rakh@fusionpact.com">kiran.rakh@fusionpact.com</a> | <a href="https://www.fusionpact.com" target="_blank">www.fusionpact.com</a>
+</footer>
+
+<script>
+// Intersection Observer for fade-up animation
+const cards = document.querySelectorAll('.module-card');
+const offer = document.querySelector('.offer-card');
+const observer = new IntersectionObserver(entries => {
+  entries.forEach(entry => {
+    if(entry.isIntersecting){
+      entry.target.classList.add('visible');
+      observer.unobserve(entry.target);
+    }
+  });
+},{ threshold: 0.1 });
+cards.forEach(card => observer.observe(card));
+observer.observe(offer);
+</script>
+
+</body>
+</html>
